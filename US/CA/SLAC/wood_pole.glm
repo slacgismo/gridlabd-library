@@ -1,9 +1,11 @@
-#define LIBRARY_Author="dchassin"
 #define LIBRARY_Name="Pole"
+#define LIBRARY_Version="0.0"
+#define LIBRARY_Author="dchassin"
 #define LIBRARY_Description="Pole library"
 #define LIBRARY_Module="powerflow"
 
-object pole_configuration {
+object pole_configuration 
+{
 	name "WOOD-C-45/5";
 	pole_type WOOD;
 	pole_length 45 ft;
