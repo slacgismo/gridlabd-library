@@ -1,6 +1,6 @@
-#define LIBRARY_Name="Wood Poles"
+#define LIBRARY_Name="Poles Configuration"
 #define LIBRARY_Version="0.0"
-#define LIBRARY_Author="dchassin"
+#define LIBRARY_Author="ateyber"
 #define LIBRARY_Description="Wood poles library for USA"
 #define LIBRARY_Module="powerflow"
 
