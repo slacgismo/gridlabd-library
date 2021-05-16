@@ -4,9 +4,12 @@
 #define LIBRARY_Description="Wood poles library for USA"
 #define LIBRARY_Module="powerflow"
 
+// Names are based on ANSI O5.1-2015 species codes
+// See https://woodpoles.org/portals/2/documents/WoodPoleCode_Overview.pdf
+
 object pole_configuration 
 {
-	name "WOOD-C-45/5";
+	name "WOOD-C-45/5"; // test
 	pole_type WOOD;
 	pole_length 45 ft;
 	pole_depth 4.5 ft;
@@ -19,7 +22,7 @@ object pole_configuration
 
 object pole_configuration 
 {
-	name "WOOD-SOUTHERN-PINE-45/4";
+	name "WOOD-SP-45/4"; // southern pine
 	pole_type WOOD;
 	pole_length 45 ft;
 	pole_depth 6.5 ft;
@@ -31,7 +34,7 @@ object pole_configuration
 
 object pole_configuration 
 {
-	name "WOOD-DOUGLAS-FIR-45/4";
+	name "WOOD-DF-45/4"; // douglas fir
 	pole_type WOOD;
 	pole_length 45 ft;
 	pole_depth 6.5 ft;
@@ -43,7 +46,7 @@ object pole_configuration
 
 object pole_configuration 
 {
-	name "WOOD-RED-PINE-45/4";
+	name "WOOD-NP-45/4"; // red point
 	pole_type WOOD;
 	pole_length 45 ft;
 	pole_depth 6.5 ft;
@@ -55,7 +58,7 @@ object pole_configuration
 
 object pole_configuration 
 {
-	name "WOOD-JACK-PINE-45/4";
+	name "WOOD-JP-45/4"; // jack pine
 	pole_type WOOD;
 	pole_length 45 ft;
 	pole_depth 6.5 ft;
@@ -67,7 +70,7 @@ object pole_configuration
 
 object pole_configuration 
 {
-	name "WOOD-LODGEPOLE-PINE-45/4";
+	name "WOOD-LP-45/4"; // lodgepole pine
 	pole_type WOOD;
 	pole_length 45 ft;
 	pole_depth 6.5 ft;
@@ -79,7 +82,7 @@ object pole_configuration
 
 object pole_configuration 
 {
-	name "WOOD-PONDEROSA-PINE-45/4";
+	name "WOOD-WP-45/4"; // ponderosa
 	pole_type WOOD;
 	pole_length 45 ft;
 	pole_depth 6.5 ft;
@@ -91,7 +94,7 @@ object pole_configuration
 
 object pole_configuration 
 {
-	name "WOOD-WESTERN-RED-CEDAR-45/4";
+	name "WOOD-WC-45/4"; // western red cedar
 	pole_type WOOD;
 	pole_length 45 ft;
 	pole_depth 6.5 ft;
@@ -103,7 +106,7 @@ object pole_configuration
 
 object pole_configuration 
 {
-	name "WOOD-NORTHERN-WHITE-CEDAR-45/4";
+	name "WOOD-EC-45/4"; // northern white cedar (eastern)
 	pole_type WOOD;
 	pole_length 45 ft;
 	pole_depth 6.5 ft;
