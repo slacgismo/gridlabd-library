@@ -46,7 +46,7 @@ object pole_configuration
 
 object pole_configuration 
 {
-	name "WOOD-NP-45/4"; // red point
+	name "WOOD-NP-45/4"; // red pine
 	pole_type WOOD;
 	pole_length 45 ft;
 	pole_depth 6.5 ft;
